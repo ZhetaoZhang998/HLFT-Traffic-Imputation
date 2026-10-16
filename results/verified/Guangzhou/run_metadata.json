@@ -1,0 +1,81 @@
+{
+  "city": "Guangzhou",
+  "config": {
+    "rank": 20,
+    "max_epochs": 60,
+    "learning_rate": 0.001,
+    "init_scale": 0.001,
+    "patience": 8,
+    "min_delta": 1e-05,
+    "seed": 42,
+    "target_transform": "log10",
+    "shuffle": false,
+    "keep_zero": false
+  },
+  "data": {
+    "train": {
+      "file": "Guangzhou_train70.txt.gz",
+      "sha256": "1023659a6710445c73c28ac8f1eedee42490fb3de371cc72ae9f6924de639d69",
+      "raw_rows": 64945,
+      "used_rows": 64945,
+      "zero_rows": 0,
+      "nonfinite_rows": 0,
+      "zero_policy": "drop_as_in_original_source"
+    },
+    "valid": {
+      "file": "Guangzhou_valid10.txt.gz",
+      "sha256": "5ad8cf2f459ba28d372e04662a66c480004ca8e4585412af9ef08152526cdf90",
+      "raw_rows": 9278,
+      "used_rows": 9278,
+      "zero_rows": 0,
+      "nonfinite_rows": 0,
+      "zero_policy": "drop_as_in_original_source"
+    },
+    "test": {
+      "file": "Guangzhou_test20.txt.gz",
+      "sha256": "df422edba300260a882acea9cfc7259032005c439ddc02e23e4631c60aeba99c",
+      "raw_rows": 18556,
+      "used_rows": 18556,
+      "zero_rows": 0,
+      "nonfinite_rows": 0,
+      "zero_policy": "drop_as_in_original_source"
+    },
+    "shape": [
+      214,
+      144,
+      61
+    ],
+    "validation_test_axis_ids_not_seen_in_train": {
+      "valid": [
+        0,
+        0,
+        0
+      ],
+      "test": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "fit": {
+    "best_epoch": 60,
+    "best_validation_rmse": 5.4862133972495215,
+    "epochs_trained": 60,
+    "training_and_validation_seconds": 3.9032591879999927,
+    "jit_warmup_seconds": 3.856900002574548e-05,
+    "training_target_scale": 2.0254697190610558,
+    "stopped_early": false,
+    "test_prediction_seconds": 0.006680327000026409
+  },
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "numba": "0.63.1",
+    "llvmlite": "0.46.0",
+    "matplotlib": "3.10.8"
+  },
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "metric_units": "supplied dataset speed units",
+  "protocol": "supplied random-entry split; validation-RMSE checkpoint; single final test evaluation"
+}

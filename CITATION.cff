@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite the associated research paper when using this work."
+title: "HLFT Traffic Data Imputation"
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Zhetao
+repository-code: "https://github.com/ZhetaoZhang998/hlft-traffic-imputation"
+preferred-citation:
+  type: article
+  title: "Latent Factorization of Tensors in Hyperbolic Space for Spatiotemporal Traffic Data Imputation"
+  authors:
+    - family-names: Wu
+      given-names: Hao
+    - family-names: Yang
+      given-names: Lei
+    - family-names: Zhang
+      given-names: Zhetao
+  journal: "IEEE/CAA Journal of Automatica Sinica"
+  volume: 13
+  issue: 8
+  start: 1991
+  end: 1993
+  year: 2026
+  month: 8
+  doi: "10.1109/JAS.2024.124911"

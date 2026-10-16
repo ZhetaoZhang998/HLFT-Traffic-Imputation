@@ -1,0 +1,5 @@
+传感器id：：时间间隔：：天数：：速度值
+1. Berlin_data_set数据集，Berlin_train70.txt，Berlin_valid10.txt，Berlin_test20.txt 分别是训练集，验证集和测试集
+2. Guangzhou_data_set数据集，Guangzhou_train70.txt，Guangzhou_valid10.txt，Guangzhou_test20.txt 分别是训练集，验证集和测试集
+3. NewYork_data_set 数据集，NewYork__train70.txt，NewYork__valid10.txt，NewYork__test20.txt 分别是训练集，验证集和测试集
+4. Seattle_data_set数据集，Seattle__train70.txt，Seattle__valid10.txt，Seattle__test20.txt 分别是训练集，验证集和测试集

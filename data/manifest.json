@@ -1,0 +1,74 @@
+[
+  {
+    "file": "data/Berlin/Berlin_test20.txt.gz",
+    "compressed_bytes": 185401,
+    "raw_bytes": 541449,
+    "raw_sha256": "b2aa206da455a8826937314ecb029f45ba8351d1c08a14ef8952ca5eb4c46a55"
+  },
+  {
+    "file": "data/Berlin/Berlin_train70.txt.gz",
+    "compressed_bytes": 646327,
+    "raw_bytes": 1895281,
+    "raw_sha256": "fcaa363c8e5cc8eaf7a53654400d0862224751c4a79ae71e1a21316dcde3645d"
+  },
+  {
+    "file": "data/Berlin/Berlin_valid10.txt.gz",
+    "compressed_bytes": 93317,
+    "raw_bytes": 270817,
+    "raw_sha256": "4205a969e2ce0bc4d58ea2769cd7ebb7461339286512524737a59d0aaa14fc7a"
+  },
+  {
+    "file": "data/Guangzhou/Guangzhou_test20.txt.gz",
+    "compressed_bytes": 140685,
+    "raw_bytes": 456477,
+    "raw_sha256": "566781f0a7115f438f60cf601e9739e41283b4e60fe1755b594d850a00749eaa"
+  },
+  {
+    "file": "data/Guangzhou/Guangzhou_train70.txt.gz",
+    "compressed_bytes": 489855,
+    "raw_bytes": 1597475,
+    "raw_sha256": "6d5d075b49ba54445d8935eb89a5c68848cdd2efd28f3bf88a98560fd859d8aa"
+  },
+  {
+    "file": "data/Guangzhou/Guangzhou_valid10.txt.gz",
+    "compressed_bytes": 70799,
+    "raw_bytes": 228153,
+    "raw_sha256": "81301af8b245fcd01d76d20afecc8fcb9776f709bbf0d4d1242d65998891d556"
+  },
+  {
+    "file": "data/NewYork/NewYork_test20.txt.gz",
+    "compressed_bytes": 124826,
+    "raw_bytes": 420160,
+    "raw_sha256": "7bc9c34bef9508b114dbae54078d94921b55c2bd26c92e7025821f93bfae8dc7"
+  },
+  {
+    "file": "data/NewYork/NewYork_train70.txt.gz",
+    "compressed_bytes": 434369,
+    "raw_bytes": 1471235,
+    "raw_sha256": "ec80a4b019047f7a6c03d3d90b7b6236c8c51e8f24e786240e5cee352c088c87"
+  },
+  {
+    "file": "data/NewYork/NewYork_valid10.txt.gz",
+    "compressed_bytes": 63159,
+    "raw_bytes": 210220,
+    "raw_sha256": "e7631819143e1d5d7e3d8436b28af2f38931cd2a25ca5e2a8acd953277d628c6"
+  },
+  {
+    "file": "data/Seattle/Seattle_test20.txt.gz",
+    "compressed_bytes": 4418526,
+    "raw_bytes": 11255721,
+    "raw_sha256": "3446a9113697c772974b437cd68c7f863739e1b1cc1be542282035bc08322a19"
+  },
+  {
+    "file": "data/Seattle/Seattle_train70.txt.gz",
+    "compressed_bytes": 15464634,
+    "raw_bytes": 39395991,
+    "raw_sha256": "9c0df23d51cdd166be5e927be7eaccee6099c0e0dfdf33c1a59be32c137c97d9"
+  },
+  {
+    "file": "data/Seattle/Seattle_valid10.txt.gz",
+    "compressed_bytes": 2210700,
+    "raw_bytes": 5628020,
+    "raw_sha256": "a3af0081b5901131b64af7608bd61ab12814d7de4de39156f7acc63da3b0e7bc"
+  }
+]

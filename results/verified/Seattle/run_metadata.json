@@ -1,0 +1,81 @@
+{
+  "city": "Seattle",
+  "config": {
+    "rank": 20,
+    "max_epochs": 60,
+    "learning_rate": 0.001,
+    "init_scale": 0.001,
+    "patience": 8,
+    "min_delta": 1e-05,
+    "seed": 42,
+    "target_transform": "log10",
+    "shuffle": false,
+    "keep_zero": false
+  },
+  "data": {
+    "train": {
+      "file": "Seattle_train70.txt.gz",
+      "sha256": "56ccb2b6b2a5b5482f9234a32cfd4efcdc0597c51a7c15c0afa99448de67ca28",
+      "raw_rows": 1188381,
+      "used_rows": 1188381,
+      "zero_rows": 0,
+      "nonfinite_rows": 0,
+      "zero_policy": "drop_as_in_original_source"
+    },
+    "valid": {
+      "file": "Seattle_valid10.txt.gz",
+      "sha256": "f3f0870d2e52c3ac8fa933b893e74c59a86eae7d60af1000c44ac10bd55eb526",
+      "raw_rows": 169769,
+      "used_rows": 169769,
+      "zero_rows": 0,
+      "nonfinite_rows": 0,
+      "zero_policy": "drop_as_in_original_source"
+    },
+    "test": {
+      "file": "Seattle_test20.txt.gz",
+      "sha256": "d28294f4b960f682e5b6ef0834edcddc3628687d13477a37a16668e1bfec4850",
+      "raw_rows": 339538,
+      "used_rows": 339538,
+      "zero_rows": 0,
+      "nonfinite_rows": 0,
+      "zero_policy": "drop_as_in_original_source"
+    },
+    "shape": [
+      323,
+      288,
+      365
+    ],
+    "validation_test_axis_ids_not_seen_in_train": {
+      "valid": [
+        0,
+        0,
+        0
+      ],
+      "test": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "fit": {
+    "best_epoch": 3,
+    "best_validation_rmse": 10.839540974974161,
+    "epochs_trained": 11,
+    "training_and_validation_seconds": 11.686118608000015,
+    "jit_warmup_seconds": 6.411600008959795e-05,
+    "training_target_scale": 1.927882602500392,
+    "stopped_early": true,
+    "test_prediction_seconds": 0.09891084299999875
+  },
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "numba": "0.63.1",
+    "llvmlite": "0.46.0",
+    "matplotlib": "3.10.8"
+  },
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "metric_units": "supplied dataset speed units",
+  "protocol": "supplied random-entry split; validation-RMSE checkpoint; single final test evaluation"
+}

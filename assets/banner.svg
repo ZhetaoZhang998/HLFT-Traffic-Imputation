@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="420" viewBox="0 0 1440 420" role="img" aria-labelledby="title desc">
+<title id="title">Traffic data imputation</title><desc id="desc">A warm project cover for hyperbolic tensor factorization. The geometric shapes are illustrative, not experimental data.</desc>
+<rect width="1440" height="420" rx="20" fill="#faf8f3"/>
+<path d="M1080 0H1440V420H1140C1098 348 1092 297 1039 238C984 178 1010 80 1080 0Z" fill="#edf0e6"/>
+<text x="66" y="74" font-family="Arial,sans-serif" font-size="16" letter-spacing="3" fill="#627262">GEOMETRY / STRUCTURED DATA</text>
+<text x="62" y="180" font-family="Georgia,serif" font-size="76" fill="#25372c">Traffic data</text>
+<text x="62" y="269" font-family="Georgia,serif" font-size="76" fill="#25372c">imputation</text>
+<text x="66" y="330" font-family="Arial,sans-serif" font-size="23" fill="#58665c">Recovering the missing pieces.</text>
+<rect x="66" y="360" width="292" height="31" rx="15" fill="#e4eadd"/>
+<text x="84" y="381" font-family="Arial,sans-serif" font-size="15" fill="#49604d">HLFT · Riemannian optimization</text>
+<circle cx="1198" cy="212" r="158" fill="#d5dfca"/>
+<circle cx="1198" cy="212" r="126" fill="#f5f5ec" stroke="#779b87" stroke-width="2"/>
+<path d="M1090 147Q1200 213 1304 151M1091 278Q1200 212 1304 276M1134 106Q1199 210 1131 318M1265 107Q1197 212 1264 317" fill="none" stroke="#c0cfbb" stroke-width="2"/>
+<path d="M1122 176Q1190 246 1272 256M1122 176Q1198 172 1250 135M1250 135Q1225 194 1272 256" fill="none" stroke="#3c6a58" stroke-width="4"/>
+<circle cx="1122" cy="176" r="10" fill="#3c6a58"/><circle cx="1272" cy="256" r="10" fill="#3c6a58"/><circle cx="1250" cy="135" r="10" fill="#b48765"/>
+<circle cx="1064" cy="323" r="26" fill="#b48765"/>
+</svg>

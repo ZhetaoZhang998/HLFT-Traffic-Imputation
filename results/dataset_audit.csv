@@ -1,0 +1,13 @@
+city,split,raw_rows,used_rows,zero_rows,nonfinite_rows
+Berlin,train,93169,93169,0,0
+Berlin,valid,13310,13310,0,0
+Berlin,test,26620,26620,0,0
+Guangzhou,train,64945,64945,0,0
+Guangzhou,valid,9278,9278,0,0
+Guangzhou,test,18556,18556,0,0
+NewYork,train,76755,65890,10865,0
+NewYork,valid,10965,9423,1542,0
+NewYork,test,21931,18809,3122,0
+Seattle,train,1188381,1188381,0,0
+Seattle,valid,169769,169769,0,0
+Seattle,test,339538,339538,0,0
