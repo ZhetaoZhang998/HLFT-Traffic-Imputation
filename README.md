@@ -104,7 +104,6 @@ The data contains records of the form `sensor_id::interval_id::day_id::speed`. A
 - [Measured dataset audit](results/dataset_audit.csv)
 - [Original research source](reference/original_hlft.py)
 - [Numerical and pipeline checks](tests/test_hlft.py)
-- [中文上传与运行说明](START_HERE_CN.md)
 
 ```bash
 python -m unittest discover -s tests -v
